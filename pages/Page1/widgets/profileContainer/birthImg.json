@@ -1,0 +1,39 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 11,
+  "boxShadow": "none",
+  "defaultImage": "https://assets.appsmith.com/widgets/default.png",
+  "dynamicBindingPathList": [
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "enableDownload": false,
+  "enableRotation": false,
+  "flexVerticalAlignment": "start",
+  "image": "https://ucarecdn.com/bc623037-45b7-43de-ad49-db91cff586a8/Vector.png",
+  "imageShape": "RECTANGLE",
+  "isLoading": false,
+  "isVisible": true,
+  "key": "v1woyftiey",
+  "leftColumn": 41,
+  "maxZoomLevel": 1,
+  "mobileBottomRow": 34,
+  "mobileLeftColumn": 43,
+  "mobileRightColumn": 55,
+  "mobileTopRow": 22,
+  "needsErrorInfo": false,
+  "objectFit": "auto",
+  "parentColumnSpace": 18.880859375,
+  "parentId": "2o0h500lg4",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "rightColumn": 43,
+  "topRow": 7,
+  "type": "IMAGE_WIDGET",
+  "version": 1,
+  "widgetId": "k9cbevwacj",
+  "widgetName": "birthImg"
+}

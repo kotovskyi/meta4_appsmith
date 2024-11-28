@@ -1,0 +1,66 @@
+
+  query AssignmentActualEmployeeAssignment($email: String) {
+    people_assignment(where: { employee: { workemail: { _eq: $email } } }) {
+      festcloudid
+      employeefestcloudid
+      enddate
+      manager
+      role
+      jobtitle
+      startdate
+      positionfestcloudid
+      workgroupfestcloudid
+      workgroup {
+        festcloudid
+        workgroupfestcloudid
+        name
+        status
+        type
+        parent {
+          festcloudid
+          workgroupfestcloudid
+          name
+          status
+          type
+          parent {
+            festcloudid
+            workgroupfestcloudid
+            name
+            status
+            type
+            parent {
+              festcloudid
+              workgroupfestcloudid
+              name
+              status
+              type
+            }
+          }
+        }
+      }
+      position {
+        festcloudid
+        positionname
+      }
+      employee {
+        festcloudid
+        firstemploymentdate
+        photolink
+        stage
+        workemail
+        workmobilephone
+        workstationaryphone
+        person {
+          birthday
+          email
+          mobilephone
+          familyname
+          festcloudid
+          gender
+          middlename
+          name
+        }
+      }
+    }
+  }
+

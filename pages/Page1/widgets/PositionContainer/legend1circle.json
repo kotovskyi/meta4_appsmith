@@ -1,0 +1,39 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 27,
+  "boxShadow": "none",
+  "defaultImage": "https://assets.appsmith.com/widgets/default.png",
+  "dynamicBindingPathList": [
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "enableDownload": false,
+  "enableRotation": false,
+  "flexVerticalAlignment": "start",
+  "image": "https://ucarecdn.com/74fa725d-2903-4afd-93c0-7e9acd10f89a/circle.png",
+  "imageShape": "RECTANGLE",
+  "isLoading": false,
+  "isVisible": true,
+  "key": "33qgrc845d",
+  "leftColumn": 2,
+  "maxZoomLevel": 1,
+  "mobileBottomRow": 96,
+  "mobileLeftColumn": 3,
+  "mobileRightColumn": 15,
+  "mobileTopRow": 84,
+  "needsErrorInfo": false,
+  "objectFit": "auto",
+  "parentColumnSpace": 19.8125,
+  "parentId": "220us5pm2b",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "rightColumn": 5,
+  "topRow": 23,
+  "type": "IMAGE_WIDGET",
+  "version": 1,
+  "widgetId": "hnnb997lau",
+  "widgetName": "legend1circle"
+}

@@ -1,0 +1,53 @@
+{
+  "animateLoading": true,
+  "borderRadius": "1.5rem",
+  "bottomRow": 26,
+  "boxShadow": "none",
+  "buttonColor": "#5d9aff",
+  "buttonVariant": "SECONDARY",
+  "disabledWhenInvalid": false,
+  "dynamicBindingPathList": [
+    {
+      "key": "text"
+    },
+    {
+      "key": "isVisible"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "isVisible"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "isDefaultClickDisabled": true,
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": "{{GetChipsData.setButtonLabels().chipsVisibility[0]}}\n\n",
+  "key": "rowdoj8ff2",
+  "leftColumn": 46,
+  "minWidth": 120,
+  "mobileBottomRow": 17,
+  "mobileLeftColumn": 11,
+  "mobileRightColumn": 27,
+  "mobileTopRow": 13,
+  "needsErrorInfo": false,
+  "originalBottomRow": 26,
+  "originalTopRow": 22,
+  "parentColumnSpace": 8.35546875,
+  "parentId": "220us5pm2b",
+  "parentRowSpace": 10,
+  "placement": "CENTER",
+  "recaptchaType": "V3",
+  "renderMode": "CANVAS",
+  "resetFormOnClick": false,
+  "responsiveBehavior": "hug",
+  "rightColumn": 58,
+  "text": "{{GetChipsData.setButtonLabels().buttonLabels[0]}}",
+  "tooltip": "",
+  "topRow": 22,
+  "type": "BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "84zot2v9gi",
+  "widgetName": "chips4"
+}

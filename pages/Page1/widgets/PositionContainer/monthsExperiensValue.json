@@ -1,0 +1,55 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 19,
+  "dynamicBindingPathList": [
+    {
+      "key": "truncateButtonColor"
+    },
+    {
+      "key": "fontFamily"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "text"
+    }
+  ],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicTriggerPathList": [],
+  "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
+  "fontSize": "1.875rem",
+  "fontStyle": "",
+  "isLoading": false,
+  "isVisible": true,
+  "key": "8o4602eflm",
+  "leftColumn": 26,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 14,
+  "mobileLeftColumn": 26,
+  "mobileRightColumn": 42,
+  "mobileTopRow": 10,
+  "needsErrorInfo": false,
+  "originalBottomRow": 20,
+  "originalTopRow": 15,
+  "overflow": "NONE",
+  "parentColumnSpace": 7.53515625,
+  "parentId": "220us5pm2b",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 42,
+  "shouldTruncate": false,
+  "text": "<div style=\"line-height: 20px; text-align: left; font-size:24px\">{{ moment().diff(moment(\"2018-12-25T05:30:00\").add(moment().diff(moment(\"2018-12-25T05:30:00\"), 'years'), 'years'), 'months') + \" місяців\" }}\n",
+  "textAlign": "LEFT",
+  "textColor": "rgb(93, 154, 255)",
+  "topRow": 15,
+  "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "type": "TEXT_WIDGET",
+  "version": 1,
+  "widgetId": "yzs0f8aeyb",
+  "widgetName": "monthsExperiensValue"
+}

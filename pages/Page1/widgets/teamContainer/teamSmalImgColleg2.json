@@ -1,0 +1,54 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 18,
+  "boxShadow": "none",
+  "defaultImage": "https://ucarecdn.com/cec1e096-879c-4439-afc4-102aa5d6738b/PlaceholderEmployeeAvatar.png",
+  "dynamicBindingPathList": [
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "image"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "enableDownload": false,
+  "enableRotation": false,
+  "flexVerticalAlignment": "start",
+  "image": "{{randomUser.getRandomUsers.data.user2.photolink}}",
+  "imageShape": "RECTANGLE",
+  "isLoading": false,
+  "isVisible": true,
+  "key": "wm2dbshth5",
+  "leftColumn": 17,
+  "maxZoomLevel": 1,
+  "mobileBottomRow": 19,
+  "mobileLeftColumn": 17,
+  "mobileRightColumn": 29,
+  "mobileTopRow": 7,
+  "needsErrorInfo": false,
+  "objectFit": "contain",
+  "onClick": "{{isClicked.imgClickState(\"teamSmalImgColleg2\")}}",
+  "originalBottomRow": 18,
+  "originalTopRow": 13,
+  "parentColumnSpace": 9.216796875,
+  "parentId": "83e4vcwoor",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "rightColumn": 22,
+  "topRow": 13,
+  "type": "IMAGE_WIDGET",
+  "version": 1,
+  "widgetId": "4ac6nbkq2t",
+  "widgetName": "teamSmalImgColleg2"
+}

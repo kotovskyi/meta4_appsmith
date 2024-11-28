@@ -1,0 +1,39 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 11,
+  "boxShadow": "none",
+  "defaultImage": "https://assets.appsmith.com/widgets/default.png",
+  "dynamicBindingPathList": [
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "enableDownload": false,
+  "enableRotation": false,
+  "flexVerticalAlignment": "start",
+  "image": "https://ucarecdn.com/cfc5cb2f-05ef-47d6-af82-4502e2503b6d/Vector.png",
+  "imageShape": "RECTANGLE",
+  "isLoading": false,
+  "isVisible": true,
+  "key": "v1woyftiey",
+  "leftColumn": 52,
+  "maxZoomLevel": 1,
+  "mobileBottomRow": 11,
+  "mobileLeftColumn": 44,
+  "mobileRightColumn": 56,
+  "mobileTopRow": 0,
+  "needsErrorInfo": false,
+  "objectFit": "auto",
+  "parentColumnSpace": 18.880859375,
+  "parentId": "2o0h500lg4",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "rightColumn": 54,
+  "topRow": 7,
+  "type": "IMAGE_WIDGET",
+  "version": 1,
+  "widgetId": "1848s5a2xz",
+  "widgetName": "locationImg"
+}

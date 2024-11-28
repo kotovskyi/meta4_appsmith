@@ -1,0 +1,41 @@
+{
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 13,
+  "counterClosewise": false,
+  "dynamicBindingPathList": [
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "progress"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "fillColor": "rgb(93, 154, 255)",
+  "isCanvas": false,
+  "isIndeterminate": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "d4vupi3jbx",
+  "leftColumn": 2,
+  "mobileBottomRow": 93,
+  "mobileLeftColumn": 0,
+  "mobileRightColumn": 25,
+  "mobileTopRow": 89,
+  "needsErrorInfo": false,
+  "parentColumnSpace": 19.8125,
+  "parentId": "220us5pm2b",
+  "parentRowSpace": 10,
+  "progress": "{{ (((moment().month() + 1) / 12) * 100).toFixed(1) }} ",
+  "progressType": "linear",
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 18,
+  "showResult": false,
+  "steps": "12",
+  "topRow": 8,
+  "type": "PROGRESS_WIDGET",
+  "version": 1,
+  "widgetId": "s8dyd5ph5k",
+  "widgetName": "monthsProgress"
+}

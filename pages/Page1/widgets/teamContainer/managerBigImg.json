@@ -1,0 +1,51 @@
+{
+  "animateLoading": true,
+  "borderRadius": "1.5rem",
+  "bottomRow": 20,
+  "boxShadow": "none",
+  "defaultImage": "https://meta4-dev.srv.festcloud.ai/assets/images/avatar-placeholders/disabled.svg",
+  "dynamicBindingPathList": [
+    {
+      "key": "image"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "enableDownload": false,
+  "enableRotation": false,
+  "flexVerticalAlignment": "start",
+  "image": "{{randomUser.getRandomUsers.data.manager.photolink}}",
+  "imageShape": "RECTANGLE",
+  "isLoading": false,
+  "isVisible": true,
+  "key": "wm2dbshth5",
+  "leftColumn": 28,
+  "maxZoomLevel": 1,
+  "mobileBottomRow": 20,
+  "mobileLeftColumn": 36,
+  "mobileRightColumn": 48,
+  "mobileTopRow": 8,
+  "needsErrorInfo": false,
+  "objectFit": "cover",
+  "onClick": "{{isClicked.resetAllStates()}}\n",
+  "originalBottomRow": 20,
+  "originalTopRow": 9,
+  "parentColumnSpace": 9.216796875,
+  "parentId": "83e4vcwoor",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "rightColumn": 40,
+  "topRow": 7,
+  "type": "IMAGE_WIDGET",
+  "version": 1,
+  "widgetId": "wma9sl27d3",
+  "widgetName": "managerBigImg"
+}

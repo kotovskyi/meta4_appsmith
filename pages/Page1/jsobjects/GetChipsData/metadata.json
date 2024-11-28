@@ -1,0 +1,11 @@
+{
+  "gitSyncId": "6748934ac96e5876083fe492_8cead1f4-17de-4d29-93c6-609c3bea93c0",
+  "id": "Page1_GetChipsData",
+  "unpublishedCollection": {
+    "name": "GetChipsData",
+    "pageId": "Page1",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": []
+  }
+}

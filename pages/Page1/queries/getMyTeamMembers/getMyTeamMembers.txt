@@ -1,0 +1,30 @@
+query GetEmployeesInWorkgroup($workgroupfestcloudid: String!) {
+  people_assignment(where: { workgroupfestcloudid: { _eq: $workgroupfestcloudid } }) {
+    festcloudid
+    employeefestcloudid
+    role
+    jobtitle
+    startdate
+    enddate
+    positionfestcloudid
+    workgroupfestcloudid
+    workgroup {
+      name  # Додаємо workgroup name
+    }
+    position {
+      positionname  # Додаємо position name
+    }
+    employee {
+      festcloudid
+      photolink
+      workemail
+      person {
+        name
+        familyname
+        middlename
+        birthday
+        mobilephone
+      }
+    }
+  }
+}

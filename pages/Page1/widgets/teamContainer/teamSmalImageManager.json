@@ -1,0 +1,58 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 12,
+  "boxShadow": "none",
+  "defaultImage": "https://meta4-dev.srv.festcloud.ai/assets/images/avatar-placeholders/employee-1-141.svg",
+  "dynamicBindingPathList": [
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "image"
+    },
+    {
+      "key": "isVisible"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "onClick"
+    },
+    {
+      "key": "isVisible"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "enableDownload": false,
+  "enableRotation": false,
+  "flexVerticalAlignment": "start",
+  "image": "{{randomUser.getRandomUsers.data.manager.photolink}}",
+  "imageShape": "RECTANGLE",
+  "isLoading": false,
+  "isVisible": "{{randomUser.getRandomUsers.data.isVisibleManager}} ",
+  "key": "33qgrc845d",
+  "leftColumn": 10,
+  "maxZoomLevel": 1,
+  "mobileBottomRow": 20,
+  "mobileLeftColumn": 46,
+  "mobileRightColumn": 58,
+  "mobileTopRow": 8,
+  "needsErrorInfo": false,
+  "objectFit": "cover",
+  "onClick": "{{\nisClicked.imgClickState(\"teamSmalImageManager\"); \n}}",
+  "parentColumnSpace": 9.216796875,
+  "parentId": "83e4vcwoor",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "rightColumn": 15,
+  "topRow": 7,
+  "type": "IMAGE_WIDGET",
+  "version": 1,
+  "widgetId": "mfng3fa3dw",
+  "widgetName": "teamSmalImageManager"
+}

@@ -1,0 +1,42 @@
+{
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 23,
+  "counterClockwise": false,
+  "counterClosewise": false,
+  "dynamicBindingPathList": [
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "progress"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "fillColor": "rgb(255, 74, 67)",
+  "isCanvas": false,
+  "isIndeterminate": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "d4vupi3jbx",
+  "leftColumn": 0,
+  "mobileBottomRow": 28,
+  "mobileLeftColumn": 0,
+  "mobileRightColumn": 26,
+  "mobileTopRow": 24,
+  "needsErrorInfo": false,
+  "parentColumnSpace": 8.35546875,
+  "parentId": "220us5pm2b",
+  "parentRowSpace": 10,
+  "progress": "{{ ((moment().date() / moment().daysInMonth()) * 100).toFixed(1) }}",
+  "progressType": "circular",
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 20,
+  "showResult": false,
+  "steps": "31",
+  "topRow": 13,
+  "type": "PROGRESS_WIDGET",
+  "version": 1,
+  "widgetId": "1ruy265ouo",
+  "widgetName": "daysProgress"
+}

@@ -1,0 +1,68 @@
+{
+  "backgroundColor": "#FFFFFF",
+  "borderColor": "#ffffff",
+  "borderRadius": "1.5rem",
+  "borderWidth": "0",
+  "bottomRow": 22,
+  "boxShadow": "none",
+  "defaultModel": "\n  {\n  \"chips\": [\"{{GetChipsData.setButtonLabels().buttonLabels[3]}}\",\n\t\"{{GetChipsData.setButtonLabels().buttonLabels[2]}}\",\n\t\"{{GetChipsData.setButtonLabels().buttonLabels[1]}}\",\n\t\"{{GetChipsData.setButtonLabels().buttonLabels[0]}}\"]\n}",
+  "dynamicBindingPathList": [
+    {
+      "key": "theme"
+    },
+    {
+      "key": "defaultModel"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "onResetClick"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onResetClick"
+    }
+  ],
+  "events": [
+    "onResetClick"
+  ],
+  "isCanvas": false,
+  "isLoading": false,
+  "isSearchWildcard": true,
+  "isVisible": true,
+  "key": "15qpeoel7y",
+  "leftColumn": 45,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "mobileBottomRow": 109,
+  "mobileLeftColumn": 0,
+  "mobileRightColumn": 16,
+  "mobileTopRow": 79,
+  "needsErrorInfo": false,
+  "onResetClick": "",
+  "originalBottomRow": 90,
+  "originalTopRow": 80,
+  "parentColumnSpace": 19.8125,
+  "parentId": "6j6oi6kh25",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "rightColumn": 61,
+  "srcDoc": {
+    "css": "@charset \"UTF-8\";\n.app {\n  height: calc(var(--appsmith-ui-height) * 1px);\n  width: calc(var(--appsmith-ui-width) * 1px);\n  justify-content: flex-start; /* Вирівнювання чіпсів по лівому краю */\n  align-items: flex-start; /* Вирівнювання чіпсів по лівому краю */\n  display: flex;\n  flex-direction: column; /* Відображення у вертикальну колонку */\n  padding: 10px;\n  border-radius: var(--appsmith-theme-borderRadius);\n  box-shadow: var(--appsmith-theme-boxShadow);\n  overflow: hidden;\n}\n\n.chip-container {\n  display: flex;\n  flex-direction: column; /* Вертикальне розташування чіпсів */\n  gap: 10px; /* Відстань між чіпсами */\n  width: 100%; /* Чіпси займають всю ширину контейнера */\n  align-items: flex-start; /* Центрування чіпсів по лівому краю */\n}\n\n.chip {\n  background: white; /* Білий фон для чіпса */\n  color: rgb(93, 154, 255); /* Текст того ж кольору, що й колір чіпса */\n  padding: 8px 16px;\n  border-radius: 9999px; /* Максимально закруглені краї */\n  font-size: 14px;\n  font-weight: 500;\n  text-align: center;\n  cursor: pointer;\n  box-shadow: var(--appsmith-theme-boxShadow);\n  border: 1px solid rgb(93, 154, 255); /* Бордер того ж кольору, що й чіпс */\n  width: auto; /* Ширина чіпса залежить від тексту */\n}\n\n/* Стиль для останнього чіпса */\n.chip:last-child {\n  background: rgb(93, 154, 255); /* Заливка останнього чіпса — синій */\n  color: white; /* Білий текст для останнього чіпса */\n  border: 1px solid rgb(93, 154, 255); /* Бордер останнього чіпса — синій */\n}\n\n/* Глобальні стилі для шрифтів */\n* {\n  -webkit-font-smoothing: antialiased;\n}\n\n*, html, body {\n  margin: 0;\n  padding: 0;\n  box-sizing: border-box;\n  font-family: \"Onest\", sans-serif;\n}",
+    "html": "<!-- no need to write html, head, body tags, it is handled by the widget -->\n<div id=\"root\"></div>\n",
+    "js": "import React from 'https://cdn.jsdelivr.net/npm/react@18.2.0/+esm';\nimport reactDom from 'https://cdn.jsdelivr.net/npm/react-dom@18.2.0/+esm';\nfunction App() {\n  // Чіпси, які будуть відображатись\n  const chips = appsmith.model.chips;\n\n  // Перевірка на undefined чи порожні значення\n  if (!chips || chips.length === 0) {\n    // Якщо чіпсів немає, повертаємо порожній контейнер\n    return null;\n  }\n  return /*#__PURE__*/React.createElement(\"div\", {\n    className: \"app\"\n  }, /*#__PURE__*/React.createElement(\"div\", {\n    className: \"chip-container\"\n  }, chips.filter(chip => chip !== \"null\" && chip !== undefined && chip !== \"\") // Фільтрація чіпсів\n  .map((chip, index) => /*#__PURE__*/React.createElement(\"div\", {\n    className: \"chip\",\n    key: index\n  }, chip))));\n}\n\n// Рендер компонента\nappsmith.onReady(() => {\n  reactDom.render( /*#__PURE__*/React.createElement(App, null), document.getElementById(\"root\"));\n});"
+  },
+  "theme": "{{appsmith.theme}}",
+  "topRow": 2,
+  "type": "CUSTOM_WIDGET",
+  "uncompiledSrcDoc": {
+    "css": ".app {\n\theight: calc(var(--appsmith-ui-height) * 1px);\n\twidth: calc(var(--appsmith-ui-width) * 1px);\n\tjustify-content: flex-start; /* Вирівнювання чіпсів по лівому краю */\n\talign-items: flex-start; /* Вирівнювання чіпсів по лівому краю */\n\tdisplay: flex;\n\tflex-direction: column; /* Відображення у вертикальну колонку */\n\tpadding: 10px;\n\tborder-radius: var(--appsmith-theme-borderRadius);\n\tbox-shadow: var(--appsmith-theme-boxShadow);\n\toverflow: hidden;\n}\n\n.chip-container {\n\tdisplay: flex;\n\tflex-direction: column; /* Вертикальне розташування чіпсів */\n\tgap: 10px; /* Відстань між чіпсами */\n\twidth: 100%; /* Чіпси займають всю ширину контейнера */\n\talign-items: flex-start; /* Центрування чіпсів по лівому краю */\n}\n\n.chip {\n\tbackground: white; /* Білий фон для чіпса */\n\tcolor: rgb(93, 154, 255); /* Текст того ж кольору, що й колір чіпса */\n\tpadding: 8px 16px;\n\tborder-radius: 9999px; /* Максимально закруглені краї */\n\tfont-size: 14px;\n\tfont-weight: 500;\n\ttext-align: center;\n\tcursor: pointer;\n\tbox-shadow: var(--appsmith-theme-boxShadow);\n\tborder: 1px solid rgb(93, 154, 255); /* Бордер того ж кольору, що й чіпс */\n\twidth: auto; /* Ширина чіпса залежить від тексту */\n}\n\n/* Стиль для останнього чіпса */\n.chip:last-child {\n\tbackground: rgb(93, 154, 255); /* Заливка останнього чіпса — синій */\n\tcolor: white; /* Білий текст для останнього чіпса */\n\tborder: 1px solid rgb(93, 154, 255); /* Бордер останнього чіпса — синій */\n}\n\n/* Глобальні стилі для шрифтів */\n* {\n    -webkit-font-smoothing: antialiased;\n}\n\n*, html, body {\n    margin: 0;\n    padding: 0;\n    box-sizing: border-box;\n    font-family: \"Onest\", sans-serif;\n}\n",
+    "html": "<!-- no need to write html, head, body tags, it is handled by the widget -->\n<div id=\"root\"></div>\n",
+    "js": "import React from 'https://cdn.jsdelivr.net/npm/react@18.2.0/+esm';\nimport reactDom from 'https://cdn.jsdelivr.net/npm/react-dom@18.2.0/+esm';\n\nfunction App() {\n  // Чіпси, які будуть відображатись\n  const chips = appsmith.model.chips;\n\n  // Перевірка на undefined чи порожні значення\n  if (!chips || chips.length === 0) {\n    // Якщо чіпсів немає, повертаємо порожній контейнер\n    return null;\n  }\n\n  return (\n    <div className=\"app\">\n      <div className=\"chip-container\">\n        {chips\n          .filter(chip => chip !== \"null\" && chip !== undefined && chip !== \"\") // Фільтрація чіпсів\n          .map((chip, index) => (\n            <div className=\"chip\" key={index}>\n              {/* Текст чіпса */}\n              {chip}\n            </div>\n          ))}\n      </div>\n    </div>\n  );\n}\n\n// Рендер компонента\nappsmith.onReady(() => {\n  reactDom.render(<App />, document.getElementById(\"root\"));\n});\n"
+  },
+  "version": 1,
+  "widgetId": "n0yqkel9sg",
+  "widgetName": "chips"
+}
